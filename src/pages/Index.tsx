@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { CursorShadow } from '@/components/CursorShadow';
 import { AmbientGrid } from '@/components/AmbientGrid';
 import { Header } from '@/components/Header';
-import { Wordmark } from '@/components/Wordmark';
 import { UploadCard } from '@/components/UploadCard';
 import { AuthModal } from '@/components/AuthModal';
 import { useToast } from '@/components/Toast';
@@ -30,11 +29,7 @@ const Index = () => {
       <div className="relative min-h-screen">
         <Header onLoginClick={() => setAuthModalOpen(true)} />
 
-        <main className="container mx-auto px-6 pt-32 pb-24 flex flex-col items-center justify-center min-h-screen">
-          <div className="mb-12 text-center">
-            <Wordmark />
-          </div>
-
+        <main className="container mx-auto px-6 flex flex-col items-center justify-center min-h-screen">
           <UploadCard />
 
           <footer className="mt-16 text-center">

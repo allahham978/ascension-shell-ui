@@ -57,7 +57,7 @@ const Dashboard = () => {
       <div className="relative min-h-screen">
         <Header onLoginClick={() => setAuthModalOpen(true)} />
 
-        <main className="container mx-auto px-6 pt-32 pb-24 flex flex-col items-center">
+        <main className="container mx-auto px-6 py-32 flex flex-col items-center">
           <UploadCard onFileSelect={handleFileSelect} />
           
           <RecentUploads uploads={uploads} />
