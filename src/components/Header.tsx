@@ -37,7 +37,7 @@ export function Header({ onLoginClick }: HeaderProps) {
           to="/" 
           className="font-display font-bold text-xl tracking-[0.02em] text-[hsl(var(--text))] hover:text-[hsl(var(--accent))] transition-colors focus-ring rounded"
         >
-          ASCENSION
+          FAST TRACK
         </Link>
 
         {!isAuthed ? (

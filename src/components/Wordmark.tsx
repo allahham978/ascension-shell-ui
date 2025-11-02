@@ -9,7 +9,7 @@ export function Wordmark() {
           fontSize: 'clamp(44px, 7vw, 88px)'
         }}
       >
-        ASCENSION
+        FAST TRACK
       </h1>
     </FocusReveal>
   );
